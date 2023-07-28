@@ -11,7 +11,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 public class SecurityConfig {
 
-    @Value("${spring.security.oauth2.resourceserver.jwt.audiences=https://gatekeeper/api/orders/**}")
+    @Value("${auth0.audience}")
     private String audience;
 
     @Value("${spring.security.oauth2.resourceserver.jwt.issuer-uri=https://luv2shop.us.auth0.com/}")
