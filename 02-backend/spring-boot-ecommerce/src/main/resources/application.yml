@@ -1,0 +1,8 @@
+auth0:
+  audience: https://gatekeeper/api/orders/**
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://luv2shop.us.auth0.com/
