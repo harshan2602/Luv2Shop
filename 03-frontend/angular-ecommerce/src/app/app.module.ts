@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { ProductService } from './services/product.service';
 
 import { Routes, RouterModule, Router } from '@angular/router';
@@ -19,11 +19,12 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { LoginStatusComponent } from './components/login-status/login-status.component';
 import { MembersPageComponent } from './components/members-page/members-page.component';
-import { AuthModule } from '@auth0/auth0-angular';
-import { AuthGuard } from '@auth0/auth0-angular';
+import { AuthModule, AuthHttpInterceptor, AuthGuard } from '@auth0/auth0-angular';
 import { LoadingComponent } from './components/loading/loading.component';
+import { OrderHistoryComponent } from './components/order-history/order-history.component';
 
 const routes: Routes = [
+  {path:'order-history', component:OrderHistoryComponent, canActivate: [AuthGuard]},
   {path: 'members', component: MembersPageComponent, canActivate: [AuthGuard]},
 
   {path: 'checkout', component: CheckoutComponent},
@@ -54,7 +55,8 @@ START FROM MOST SPECFIC TO GENERIC
   
     LoginStatusComponent,
     MembersPageComponent,
-    LoadingComponent
+    LoadingComponent,
+    OrderHistoryComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
@@ -66,11 +68,23 @@ START FROM MOST SPECFIC TO GENERIC
       domain: 'luv2shop.us.auth0.com',
       clientId: 'yf72wXeoxuJZdynTqwcPVSJhBFPfvacV',
       authorizationParams: {
-        redirect_uri: window.location.origin
-      }
+        redirect_uri: window.location.origin,
+        audience : 'https://gatekeeper/api/orders/**'
+      },
+      httpInterceptor: {
+        allowedList: [{
+          uri:'http://localhost:8080/api/orders/*',
+          tokenOptions: {
+            authorizationParams: {
+              // The attached token should target this audience
+              audience: 'https://gatekeeper/api/orders/**',
+            }
+          }
+        }]
+      },
     }),
   ],
-  providers: [ProductService],
+  providers: [ProductService,{provide: HTTP_INTERCEPTORS, useClass: AuthHttpInterceptor, multi: true}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
