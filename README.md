@@ -8,31 +8,27 @@
 
 ![Mobile Screenshot](./mobile_screenshot.png)
 
-This repository contains the code for the Full Stack E-Commerce Website developed as part of the Udemy course ["Full Stack: Angular and Java Spring Boot E-Commerce Website"](https://www.udemy.com/course/full-stack-angular-spring-boot-tutorial/) by [Chad Darby](https://github.com/darbyluv2code). The project leverages various technologies, including Java 17, Apache Maven, Hibernate, Spring Core, Spring Data, Spring REST, Spring Boot, Spring Security, TypeScript, Angular, Auth0, Stripe, and Postman API.
+Welcome to the repository housing the code for the Full Stack E-Commerce Website developed as part of the Udemy course ["Full Stack: Angular and Java Spring Boot E-Commerce Website"](https://www.udemy.com/course/full-stack-angular-spring-boot-tutorial/) by [Chad Darby](https://github.com/darbyluv2code). The project leverages various technologies, including Java 17, Apache Maven, Hibernate, Spring Core, Spring Data, Spring REST, Spring Boot, Spring Security, TypeScript, Angular, Auth0, Stripe, and Postman API.
 
 ## Overview
 
-This E-Commerce website, known as "Luv2Shop," is a full-stack application built with Angular and Java Spring Boot. It includes a wide range of features and functionalities necessary for a modern online store. The project is designed to showcase best practices in building robust and secure web applications using the technologies mentioned above.
+Named "Luv2Shop," this E-Commerce website is a comprehensive application crafted with Angular and Java Spring Boot. It encompasses a rich set of features essential for a contemporary online store. The project serves as a showcase of best practices in constructing robust and secure web applications utilizing the aforementioned technologies.
 
 ## Features
 
-- **User Authentication**: Utilizes Spring Security and Auth0 for secure user authentication and authorization.
-
-- **Product Catalog**: Allows users to browse and search for products with a well-structured product catalog.
-
-- **Shopping Cart**: Users can add products to their cart and proceed to checkout seamlessly.
-
-- **Payment Integration**: Integration with Stripe for handling payments.
-
+- **User Authentication**: Implements Spring Security and Auth0 for secure user authentication and authorization.
+  
+- **Product Catalog**: Facilitates user-friendly browsing and searching within a well-organized product catalog.
+  
+- **Shopping Cart**:  Enables users to seamlessly add products to their carts and proceed to checkout.
+  
+- **Payment Integration**: Integrates with Stripe for secure and efficient payment handling.
+  
 - **Postman API Documentation**: Detailed API documentation using Postman.
 
-- **Responsive Design**: Improved styling and responsive design for a better user experience.
+- **Responsive Design**: Prioritizes enhanced styling and responsive design for an optimal user experience.
 
-- **Frontend Hosting**: The frontend is hosted on AWS for easy access.
-
-- **Backend Hosting**: The backend is hosted on AWS.
-
-- **Database Hosting**: The database is hosted on AWS.
+- **Hosting**: The frontend, backend, and database are all hosted on AWS for accessibility.
 
 ## Technologies Used
 
@@ -58,7 +54,7 @@ I contributed by implementing Postman API documentation to provide detailed info
 
 ### Refine Styling and Responsive Design
 
-I worked on enhancing the overall user interface by refining the styling and ensuring a responsive design. This improves the user experience and makes the website more visually appealing.
+Worked on enhancing the user interface by refining styling and ensuring responsive design for an improved visual experience.
 
 ### Frontend Hosting on AWS
 
@@ -74,15 +70,15 @@ The MySQL database is hosted on AWS RDS Service.
 
 ## Usage
 
-To make the most of the Luv2Shop website, follow these steps:
+To maximize your experience with the Luv2Shop website, follow these steps:
 
 1. **Browse the Product Catalog:**
 
-   - You can access the product catalog without logging in. Simply visit the website to explore the available products.
+   - Explore available products without logging in.
 
 2. **Login to Your Account:**
 
-   - To log in, you can use sign in with google option or you can create an account.
+   - Sign in using your Google account or create a new account.
 
 3. **Access Additional Features with Login:**
 
@@ -92,8 +88,8 @@ To make the most of the Luv2Shop website, follow these steps:
 
 4. **Add Items to Your Cart:**
 
-   - When you find a product you want to purchase, click the "Add to Cart" button.
-   - You can review and modify the contents of your shopping cart at any time.
+   - Click "Add to Cart" for desired products.
+   - Review and modify your shopping cart at any time.
 
 5. **Proceed to Checkout:**
 
@@ -103,7 +99,7 @@ To make the most of the Luv2Shop website, follow these steps:
 
 6. **Make a Payment Using Stripe:**
 
-   For testing purposes, you can complete your purchase using the following test card details provided by Stripe:
+   For testing, use the provided Stripe test card details.
    - American expressTest Card: 3782 8224 6310 005
    - Card Number: 4242 4242 4242 4242
    - Expiration Date: Any future date (e.g., 12/25)
@@ -128,6 +124,6 @@ Watch a video demonstration of the Luv2Shop project [here](https://www.youtube.c
 If you have any questions, suggestions, or just want to get in touch, you can reach us at:
 
 - Email: [harshan2602@gmail.com](mailto:harshan2602@gmail.com)
-- LinkedIn: [Ahmed Aouinti](https://www.linkedin.com/in/harshan2602/)
+- LinkedIn: [Harshan Selvakumar](https://www.linkedin.com/in/harshan2602/)
 
 I appreciate your interest and look forward to your contributions and feedback!
