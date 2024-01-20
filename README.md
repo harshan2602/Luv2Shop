@@ -10,11 +10,11 @@
 
 Welcome to the repository housing the code for the Full Stack E-Commerce Website developed as part of the Udemy course ["Full Stack: Angular and Java Spring Boot E-Commerce Website"](https://www.udemy.com/course/full-stack-angular-spring-boot-tutorial/) by [Chad Darby](https://github.com/darbyluv2code). The project leverages various technologies, including Java 17, Apache Maven, Hibernate, Spring Core, Spring Data, Spring REST, Spring Boot, Spring Security, TypeScript, Angular, Auth0, Stripe, and Postman API.
 
-## Overview
+## 🔥 Overview
 
 Named "Luv2Shop," this E-Commerce website is a comprehensive application crafted with Angular and Java Spring Boot. It encompasses a rich set of features essential for a contemporary online store. The project serves as a showcase of best practices in constructing robust and secure web applications utilizing the aforementioned technologies.
 
-## Features
+## 🧐 Features
 
 - **User Authentication**: Implements Spring Security and Auth0 for secure user authentication and authorization.
   
@@ -30,7 +30,7 @@ Named "Luv2Shop," this E-Commerce website is a comprehensive application crafted
 
 - **Hosting**: The frontend, backend, and database are all hosted on AWS for accessibility.
 
-## Technologies Used
+## 💻 Technologies Used
 
 - Java 17
 - Apache Maven
@@ -46,7 +46,7 @@ Named "Luv2Shop," this E-Commerce website is a comprehensive application crafted
 - Stripe
 - Postman API
 
-## Contributions
+## 🍰 Contributions
 
 ### Added Postman API Documentation
 
@@ -68,7 +68,7 @@ The backend of the project is hosted on AWS EC3 Service.
 
 The MySQL database is hosted on AWS RDS Service.
 
-## Usage
+## 🛠️ Usage
 
 To maximize your experience with the Luv2Shop website, follow these steps:
 
@@ -111,11 +111,11 @@ To maximize your experience with the Luv2Shop website, follow these steps:
    - After successfully placing your order, a confirmation popup will appear.
    - Additionally, you can access the "Orders" section in your account to view all your orders.
 
-## Demo
+## 🚀 Demo
 
 You can preview Luv2Shop live demo at [luv2shop-ecommerce](https://luv2shop.site). The demo provides a hands-on experience of the website's features and functionality.
 
-## Contact Information
+## 📩 Contact Information
 
 If you have any questions, suggestions, or just want to get in touch, you can reach us at:
 
