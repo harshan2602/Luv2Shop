@@ -2,7 +2,7 @@
 <p align="center"><img src="https://socialify.git.ci/harshan2602/Luv2Shop/image?language=1&amp;owner=1&amp;name=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
 
 <h2>Project Screenshots:</h2>
-### Desktop view
+<h3>Desktop view</h3>
 
 ![Desktop Screenshot](./desktop_screenshot.png)
 
