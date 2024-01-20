@@ -50,7 +50,7 @@ Named "Luv2Shop," this E-Commerce website is a comprehensive application crafted
 
 ### Added Postman API Documentation
 
-I contributed by implementing Postman API documentation to provide detailed information on the project's API endpoints. This documentation can be accessed at [Postman API Documentation](https://luv2shop.shop/api/).
+I contributed by implementing Postman API documentation to provide detailed information on the project's API endpoints. This documentation can be accessed at [Postman API Documentation](https://luv2shop.shop/api/). (In process)
 
 ### Refine Styling and Responsive Design
 
@@ -114,10 +114,6 @@ To maximize your experience with the Luv2Shop website, follow these steps:
 ## Demo
 
 You can preview Luv2Shop live demo at [luv2shop-ecommerce](https://luv2shop.site). The demo provides a hands-on experience of the website's features and functionality.
-
-## Video Demonstration
-
-Watch a video demonstration of the Luv2Shop project [here](https://www.youtube.com/watch?v=jLlTbAgyTbQ).
 
 ## Contact Information
 
