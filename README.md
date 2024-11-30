@@ -8,7 +8,7 @@
 
 
 
-Welcome to the repository housing the code for the Full Stack E-Commerce Website developed as part of the Udemy course ["Full Stack: Angular and Java Spring Boot E-Commerce Website"](https://www.udemy.com/course/full-stack-angular-spring-boot-tutorial/) by [Chad Darby](https://github.com/darbyluv2code). The project leverages various technologies, including Java 17, Apache Maven, Hibernate, Spring Core, Spring Data, Spring REST, Spring Boot, Spring Security, TypeScript, Angular, Auth0, Stripe, and Postman API.
+Welcome to the repository housing the code for the Full Stack E-Commerce Website developed. The project leverages various technologies, including Java 17, Apache Maven, Hibernate, Spring Core, Spring Data, Spring REST, Spring Boot, Spring Security, TypeScript, Angular, Auth0, Stripe, and Postman API.
 
 ## 🔥 Overview
 
